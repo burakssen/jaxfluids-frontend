@@ -24,7 +24,7 @@ const App: React.FC = () => {
   useEffect(() => {
     const fetchModel = async () => {
       try {
-        modelRef.current = await loadModel("http://localhost:8000/sin.onnx");
+        modelRef.current = await loadModel("https://burakssen/jaxfluids-frontend/sin.onnx");
         setModel(true);
       } catch (e) {
         setError(`Failed to load model: ${e instanceof Error ? e.message : String(e)}`);
