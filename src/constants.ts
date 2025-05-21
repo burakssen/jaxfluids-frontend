@@ -18,5 +18,5 @@ export const FUNCTION_OPTIONS: FunctionOption[] = [
 export const CONSTANTS = {
     TWO_PI: Math.PI * 2,
     POINTS_COUNT: 1000,
-    MODEL_URL: "https://burakssen.com/jax-fluids/sin.onnx",
+    MODEL_URL: "https://burakssen.com/jaxfluids-frontend/sin.onnx",
 };
